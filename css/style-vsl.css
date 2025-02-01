@@ -98,6 +98,26 @@ h2 {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Rodapé */
+.footer {
+  text-align: center;
+  font-size: 14px;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
 /* Animação de Delay na Div .esconder */
 .esconder {
   opacity: 0;
