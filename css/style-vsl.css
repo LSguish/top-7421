@@ -37,6 +37,10 @@ span {
   color: #83cdf5;
 }
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 /* Subtítulo */
 h3 {
   font-size: 18px;
