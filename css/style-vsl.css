@@ -59,9 +59,7 @@ h3 span {
 .video-container {
   position: relative;
   padding: 0 10px;
-  padding-bottom: 56.25%;
-  height: 0;
-  margin-bottom: 15px;
+  width: 100%;
 }
 
 .video-container img {
@@ -83,14 +81,12 @@ p {
 
 /* Galeria de Imagens */
 .image-gallery {
-  background-color: #eeeeee;
+  background-color: #eeeeee;  
   display: flex;
   flex-wrap: wrap;
   flex-direction: column; /* Coloca as imagens em coluna */
   gap: 10px; /* Espaçamento entre as imagens */
   width: 100%; /* Ocupa toda a largura */
-  position: relative;
-  z-index: 3;
 }
 
 .image-gallery img {
