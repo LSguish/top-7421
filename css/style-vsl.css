@@ -89,7 +89,7 @@ p {
   gap: 10px; /* Espaçamento entre as imagens */
   width: 100%; /* Ocupa toda a largura */
   position: relative;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .image-gallery img {
