@@ -50,6 +50,10 @@ h3 {
   margin-top: 15px;
 }
 
+h3 span {
+  color: #fff;
+}
+
 /* Vídeo Responsivo */
 .video-container {
   position: relative;
