@@ -58,6 +58,7 @@ h3 span {
 /* Vídeo Responsivo */
 .video-container {
   position: relative;
+  z-index: 2;
   padding: 0 10px;
   padding-bottom: 56.25%;
   height: 0;
@@ -88,6 +89,9 @@ p {
   flex-direction: column; /* Coloca as imagens em coluna */
   gap: 10px; /* Espaçamento entre as imagens */
   width: 100%; /* Ocupa toda a largura */
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
 }
 
 .image-gallery img {
