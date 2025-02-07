@@ -85,11 +85,12 @@ p {
 .image-gallery {
   background-color: #eeeeee;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column; /* Coloca as imagens em coluna */
   gap: 10px; /* Espaçamento entre as imagens */
   width: 100%; /* Ocupa toda a largura */
   position: relative;
-  margin-top: 60px;
+  z-index: 3;
 }
 
 .image-gallery img {
