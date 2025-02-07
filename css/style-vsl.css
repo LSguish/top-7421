@@ -51,6 +51,7 @@ h3 {
 }
 
 h3 span {
+  text-transform: capitalize;
   color: #fff;
 }
 
