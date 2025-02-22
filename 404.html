@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página não encontrada</title>
+    <script>
+        (function() {
+            var urlSemBarra = window.location.pathname.replace(/\/$/, "");
+            if (window.location.pathname !== urlSemBarra) {
+                window.location.href = urlSemBarra;
+            }
+        })();
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ops! Página não encontrada.</h1>
+    <p>Se você não for redirecionado automaticamente, <a href="/">clique aqui</a> para voltar para a página inicial.</p>
+</body>
+</html>
