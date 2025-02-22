@@ -125,6 +125,10 @@ p {
       color: #000;
     }
 
+.referens .image-gallery {
+      background-color: #fff; 
+    }
+
 /* Rodapé */
 .footer {
   text-align: center;
