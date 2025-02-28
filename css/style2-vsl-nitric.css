@@ -80,6 +80,23 @@
       cursor: pointer;
     }
 
+    .referens {
+      margin-top: 10px;
+      background-color: #FFF;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .referens h3 {
+      padding: 15px 0;
+      font-size: larger;
+      color: #000;
+    }
+
+    .referens .image-gallery {
+      background-color: #fff; 
+    }
+
     /* Rodapé */
     .footer {
       text-align: center;
