@@ -25,12 +25,6 @@
       text-align: center;
     }
 
-    /* Headline */
-    h1 {
-      font-size: 22px;
-      padding: 10px;
-    }
-
     span {
       color: #FFC107;
     }
@@ -48,7 +42,6 @@
       position: relative;
       width: 100%;
       margin-bottom: 20px; /* Adiciona espaço abaixo do vídeo */
-      border: 2px solid #fff;
     }
 
     .video-container div {
